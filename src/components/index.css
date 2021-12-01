@@ -1,0 +1,53 @@
+.login-page-container {
+  width: 100vw;
+  min-width: 350px;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.text-input {
+  width: 100%;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+.success-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.albums-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.album {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 5px #00000055;
+  transition: all 0.3s;
+}
+.album:hover {
+  transform: scale(1.0.5);
+}
